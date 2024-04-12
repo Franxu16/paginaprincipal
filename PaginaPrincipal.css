@@ -1,0 +1,295 @@
+/*Etiquetas HTML de la página principal de la Formula 1*/
+@font-face{                     /*Creación de la fuente de la letra de la página principal de la Formula 1*/
+    font-family: f1regular;
+    src: url('../../font/fuentesF1/formula1regular.ttf') format('truetype');
+}
+html{                           /*Estilos de la página principal de la Formula 1*/
+    font-family: f1regular;
+}
+header{                         /*Estilos de la cabecera de la página principal de la Formula 1*/
+    position: relative;
+    width: 50%;
+}
+footer{                         /*Estilos del pié de página principal de la Formula 1*/
+    position: relative;
+    width: 35%;
+    left: 550px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+aside{                          /*Estilos del aside de la página principal de la Formula 1*/
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    width: 20%;
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    padding: 40px;
+}
+img{                            /*Estilos de las imagenes que salen en la página principal de la Formula 1*/
+    position: relative;
+    display: grid;
+}
+main{                           /*Estilos de la parte principal de la página principal de la Formula 1*/
+    position: relative;
+    overflow: hidden;
+}
+section{                       /*Estilos de las etiquetas de section de la página principal de la Formula 1*/
+    position: relative;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+/*Clases de la página principal de la Formula 1*/
+.cabecera{                      /*Estilos de la clase de la cabecera de la página principal de la Formula 1*/
+    position: relative;
+    left: 430px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.cabecera:hover{                /*Estilos de la clase de la cabecera cuando el cursor del ratón pasa por encima del texto*/
+    transition: all ease 1.0s;
+    background-color: black;
+    color: white;
+    text-decoration: underline 3px red;
+}
+.seccionCabecera{              /*Estilos de la barra de navegación de la cabecera de la página principal de la Formula 1*/
+    position: relative;
+    left: 150px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 150%;
+}
+#menu{
+    position: relative;
+    width: 20%;
+}
+.redes{
+    position: relative;
+    
+}
+.ig{
+    position: relative;
+    width: 3%;
+    border-radius: 25px;
+    justify-self: end;
+    right: 100px;
+    bottom: 20px;
+}
+.x{
+    position: relative;
+    width: 3%;
+    border-radius: 25px;
+    justify-self: end;
+    right: 65px;
+    bottom: 52px;
+}
+.yt{
+    position: relative;
+    width: 3%;
+    border-radius: 25px;
+    justify-self: end;
+    right: 30px;
+    bottom: 90px;
+}
+.slid-contenedor {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .slide {
+    flex: 0 0 100%;
+  }
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  .botonAntes,
+.botonDespues {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.botonAntes {
+    left: 0;
+}
+.botonDespues {
+    right: 0;
+}
+.pie{                           /*Estilos del pié de página de la página principal de la Formula 1*/
+    position: relative;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.autor{                         /*Estilos de la clase del nombre del autor que aparece en el footer de la página principal de la Formula 1*/
+    text-decoration: underline red;
+    transition: all ease 0.2s;
+}
+.autor:hover{                   /*Estilos de la clase del nombre del autor cuando pasas el ratón por encima del nombre*/
+    text-decoration: underline 3px blue;
+    transform: translateY(-10px);
+    font-size: 20px;
+    
+}
+.section1{                      /*Estilos de la primera sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    border: 2px solid black;
+}
+.section2{                     /*Estilos de la segunda sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.section3{                      /*Estilos de la tercer sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.seccion1{                      /*Estilos del párrafo de la primera sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    color: black;
+}
+.seccion2{                      /*Estilos del párrafo de la segunda sección del aside de la página principal de la Formula 1 */
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    color: black;
+}   
+.seccion3{                      /*Estilos del párrafo de la tercera sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    color: black;
+}
+.foto1{                        /*Estilos de la foto de la primera sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    width: 85%;
+    padding: 10px;
+}
+.foto2{                       /*Estilos de la foto de la segunda sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    width: 85%;
+    padding: 10px;
+}
+.foto3{                       /*Estilos de la foto de la tercera sección del aside de la página principal de la Formula 1*/
+    position: relative;
+    width: 85%;
+    padding: 10px;
+}   
+.boton1{                        /*Estilos del primer botón de la barra de navegación de la página principla de la Formula 1*/
+    position: relative;
+    border-radius: 25px;
+}
+.boton1:hover{                  /*Estilos del primer botón de la barra de navegación cuando pasas el cursor del ratón por encima del botón*/
+    transition: 0.4s ease;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+.boton2{                        /*Estilos del segundo botón de la barra de navegación de la página principal de la Formula 1*/
+    position: relative;
+    border-radius: 25px;
+}
+.boton2:hover{                  /*Estilos del segundo botón de la barra de navegación cuando pasas el cursor del ratón por encima del botón*/
+    transition: 0.4s ease;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+.boton3{                         /*Estilos del tercer botón de la barra de navegación de la página principal de la Formula 1*/
+    position: relative;
+    border-radius: 25px;
+}
+.boton3:hover{                   /*Estilos del tercer botón de la barra de navegación cuando el cursor del ratón pasa por encima del botón*/
+    transition: 0.4s ease;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+.boton4{                          /*Estilos del cuarto botón de la barra de navegación de la página principal de la Formula 1*/     
+    position: relative;
+    border-radius: 20px;
+}
+.boton4:hover{                    /*Estilos del cuarto botón de la barra de navegación cuando el cursor del ratón pasa por encima del botón*/
+    transition: 0.4s ease;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+.boton5{                            /*Estilos del quinto botón de la barra de navegación de la página principal de la Formula 1*/
+    position: relative;
+    border-radius: 25px;
+}
+.boton5:hover{                      /*Estilos del quinto botón de la barra de navegación cuando el cursor del ratón pasa por encima del botón*/
+    transition: 0.4s ease;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+.boton6{                            /*Estilos del sexto botón de la barra de navegación de la página principal de la Formula 1*/
+    position: relative;
+    border-radius: 25px;
+}
+.boton6:hover{                      /*Estilos del sexto botón de la barra de navegación cuando el cursor del ratón pasa por encima del botón*/
+    transition: 0.4s ease;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+.primero{                           /*Estilos de la primera sección del main de la página principal de la Formula 1*/
+    position: relative;
+    width: 50%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.parrafo1{                         /*Estilos del párrafo de la primera sección del main de la página principal de la Formula 1*/
+    position: relative;
+    left: 450px;
+    border: 2px solid black;
+    padding: 9px;
+    border-right: none;
+}
+.foto4{                            /*Estilos de la foto de la primera sección de la página principal de la Formula 1*/
+    position: relative;
+    left: 450px;
+    border: 2px solid black;
+    padding: 52px;
+    border-left: none;
+}
+.segundo{
+    width: 50%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    place-items: center;
+}
+.parrafo2{
+    position: relative;
+    left: 450px;
+    padding: 9px;
+}
+.foto5{
+    position: relative;
+    left: 450px;
+    padding: 52px;
+}
